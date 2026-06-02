@@ -1,0 +1,7 @@
+CompileFlags:
+  CompilationDatabase: build/
+
+If:
+  PathMatch: [include/vacua/vacua.hpp, tests/.*\.cpp]
+Diagnostics:
+  UnusedIncludes: None
